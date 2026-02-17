@@ -25,3 +25,6 @@ we write resource block as below
 
 If existing resource
 then we write data block
+
+
+terraform plan  (it will show what was adding newly and deleting )
