@@ -4,3 +4,12 @@ To connect terraform with our AWS account , we use IAM user
 and we use access_key and secret_key
 
 create IAM user
+give access
+create keys
+
+now download, install aws cli (to store keys of IAM)
+check : aws --version
+
+aws configure --profile <profile_name>  (profile name ggives because we can connect multiple account so to identify )
+after runing this command 
+it will ask for keys
