@@ -12,4 +12,16 @@ check : aws --version
 
 aws configure --profile <profile_name>  (profile name ggives because we can connect multiple account so to identify )
 after runing this command 
-it will ask for keys
+it will ask for keys, AWS Access Key ID, AWS Secret Access Key, Default region name, Default output format 
+
+if we create new resource 
+we write resource block as below
+
+# # Create an EC2 instance
+# resource "aws_instance" "example" {
+#   ami           = "<ami_name>"
+#   instance_type = "<instance_type_name>"
+# }
+
+If existing resource
+then we write data block
