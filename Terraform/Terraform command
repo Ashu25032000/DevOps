@@ -1,0 +1,6 @@
+terraform init  -  initialise terraform download from terraform registry
+
+To connect terraform with our AWS account , we use IAM user
+and we use access_key and secret_key
+
+create IAM user
