@@ -28,3 +28,5 @@ then we write data block
 
 
 terraform plan  (it will show what was adding newly and deleting )
+
+terraform apply   -  (actually create services)
