@@ -30,4 +30,5 @@ then we write data block
 terraform plan  (it will show what was adding newly and deleting )
 
 terraform apply   -  (actually create services)
-terraform aaply --auto-aaprove  (not ask for yes/no)
+terraform aaply --auto-approve  (not ask for yes/no)
+terraform destroy --auto-approve  (delete)
